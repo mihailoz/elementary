@@ -30,8 +30,12 @@
 /tmp
 /out-tsc
 
+# Built angular static files
+src/main/resources/static
+
 # dependencies
-/node_modules
+client/node_modules
+client/node
 
 # profiling files
 chrome-profiler-events.json
