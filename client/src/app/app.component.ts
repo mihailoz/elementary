@@ -41,6 +41,6 @@ export class AppComponent {
   title = 'client';
   data = {};
   constructor(private http: HttpClient) {
-    http.get('resource').subscribe(data => this.data = data);
+    //http.('resource').subscribe(data => this.data = data);
   }
 }
